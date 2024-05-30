@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root{
+    --bg-color: #FFF;
+    --font-family: "Inter", sans-serif;
+    --font-weigth-primary: 500;
+    --font-weigth-bold: 600;
+    --font-color-logo:#3A404E;
+    --font-color-text: #667085;
+    --font-color-heading: #101828; 
+    --font-color-highlight: #8E2424;
+}
+
+body{
+    background-color: var(--bg-color);
+    color: var(--font-color-text);
+    font-family: var(--font-family);
+    font-weight: var(--font-weigth-primary);
+    height: 100vh;
+}
+
+.cabecalho{
+    padding: 1.25rem;
+}
+
+.menu__logo{
+    color: var(--font-color-logo);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.container__menu, .menu__itens{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.itens__ancora{
+    text-decoration: none;
+    color: var(--font-color-text);
+}
+
+.buttons__entrar{
+    padding: 0.5rem;
+    border: none;
+    background-color: transparent;
+    color: var(--font-color-text);
+}
+
+.buttons__cadastrar{
+    padding: 0.5rem;
+    border: none;
+    border-radius: 8px;
+    color: var(--bg-color);
+    background-color: var(--font-color-highlight);
+}
+
+.sobreNos{
+    text-align: center;
+    padding: 50px;
+}
+
+.container__subtexto{
+    color: var(--font-color-highlight);
+    font-size: 1em;
+}
+
+.container__titulo{
+    color: var(--font-color-heading);
+    font-size: 3em;
+}
+
+.container__texto{
+    font-size: 1.25em;
+}
+
+.estatisticas{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
