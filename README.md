@@ -1,4 +1,4 @@
-# alura-plus
+# alura-html-css
 
 ## Descrição
 
