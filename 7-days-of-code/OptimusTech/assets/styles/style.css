@@ -328,7 +328,6 @@ body{
     font-weight: var(--font-weigth-thin);
 }
 
-
 @media (max-width: 768px){
     .itens__ancora {
         padding: 0 0.25rem;
