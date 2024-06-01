@@ -327,3 +327,40 @@ body{
     color: var(--font-color-footer-rights);
     font-weight: var(--font-weigth-thin);
 }
+
+
+@media (max-width: 768px){
+    .itens__ancora {
+        padding: 0 0.25rem;
+    }
+
+    .container__bloco__estatisticas{
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width: 425px){
+    .container__vagasDisponiveis__descricao {
+        flex-wrap: wrap;
+    }
+
+    .input {
+        padding: 0.5rem 2rem 0.5rem 1rem;
+    }
+}
+
+@media (max-width: 375px){
+    .input {
+        padding: 0.75rem 1rem;
+    }
+}
+
+@media (max-width: 320px){
+    .input {
+        padding: 0.25rem 0.25rem;
+    }
+
+    .input__button {
+        padding: 0.5rem .75rem 0.5rem .75rem;
+    }
+}
