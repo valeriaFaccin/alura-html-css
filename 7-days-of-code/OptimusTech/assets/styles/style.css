@@ -279,3 +279,51 @@ body{
     font-size: 0.875em;
     font-weight: var(--font-weigth-thin);
 }
+
+/* Rodapé */
+.rodape{
+    background-color: var(--bg-color-footer);
+    padding: 6% 19% 6% 19%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1.875rem;
+}
+
+.rodape__titulo{
+    color: var(--font-color-heading);
+    font-size: 2.25em;
+    font-weight: var(--font-weigth-bold);
+}
+
+.rodape__texto{
+    font-size: 1.25em;
+    font-weight: var(--font-weigth-thin);
+    padding-bottom: 1.25%;
+}
+
+.rodape__input{
+    padding-bottom: 0.75%;
+    display: flex;
+    gap: 1.25rem;
+    align-self: center;
+}
+
+.input{
+    padding: 0.75rem 6rem 0.75rem 1rem;
+    border: 1px solid var(--border-color-input);
+    border-radius: 8px;
+}
+
+.input__button{
+    background-color: var(--font-color-highlight);
+    color: var(--bg-color);
+    border-radius: 8px;
+    border: 1px solid var(--font-color-highlight);
+    padding: 0.75rem 1.25rem 0.75rem 1.25rem;
+}
+
+.rodape__direitos{
+    color: var(--font-color-footer-rights);
+    font-weight: var(--font-weigth-thin);
+}
