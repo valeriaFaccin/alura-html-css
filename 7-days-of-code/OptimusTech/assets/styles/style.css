@@ -93,3 +93,68 @@ body{
     color: var(--bg-color);
     background-color: var(--font-color-highlight);
 }
+
+/* Sobre nós */
+.bloco__sobre{
+    text-align: center;
+}
+
+.container__bloco__sobre{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 5%;
+}
+
+.sobre__info{
+    color: var(--font-color-highlight);
+    font-weight: var(--font-weigth-bold);
+}
+
+.sobre__titulo{
+    color: var(--font-color-heading);
+    font-size: 3em;
+    font-weight: var(--font-weigth-bold);
+}
+
+.sobre__texto{
+    font-size: 1.25em;
+    font-weight: var(--font-weigth-thin);
+    line-height: 1.875em;
+    padding: 1rem;
+}
+
+/* Bloco Estatísticas */
+.bloco__estatisticas{
+    padding: 0 5% 6% 5%;
+}
+
+.container__bloco__estatisticas{
+    display: flex;
+    gap: 2rem;
+    padding: 0 2%;
+}
+
+.bloco__estatisticas__itens{
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    width: 280px;
+}
+
+.itens__titulo{
+    font-size: 3.75em;
+    color: var(--font-color-highlight);
+    padding: 0 0 0.5rem 0;
+    font-weight: var(--font-weigth-bold);
+}
+
+.itens__subtitulo{
+    color: var(--font-color-heading);
+    font-size: 1.125em;
+}
+
+.itens__texto{
+    line-height: 1.5em;
+    font-weight: var(--font-weigth-thin);
+}
