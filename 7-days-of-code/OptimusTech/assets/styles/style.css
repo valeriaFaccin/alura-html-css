@@ -158,3 +158,45 @@ body{
     line-height: 1.5em;
     font-weight: var(--font-weigth-thin);
 }
+
+/* Vagas Abertas */
+.bloco__vagas{
+    padding: 6% 5% 6% 5%;
+}
+
+.container__vagasAbertas{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    text-align: center;
+}
+
+.vagasAbertas__descricao{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.vagasAbertas__info{
+    background-color: var(--font-color-highlight--opacity);
+    color: var(--font-color-highlight);
+    font-size: 0.875em;
+    border-radius: 16px;
+    padding: 0.5em .75em 0.5em .75em;
+    align-self: center;
+}
+
+.vagasAbertas__titulo{
+    color: var(--font-color-heading);
+    font-size: 2.25em;
+    font-weight: var(--font-weigth-bold);
+}
+
+.vagasAbertas__texto{
+    font-size: 1.25em;
+    font-weight: var(--font-weigth-thin);
+}
+
+.vagasAbertas__img{
+    width: 100%;
+}
