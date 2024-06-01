@@ -238,3 +238,44 @@ body{
     display: flex;
     gap: 1.5rem;
 }
+
+/* Comentários */
+
+.bloco__comentarios{
+    padding: 0 5% 6% 5%;
+    text-align: center;
+}
+
+.container__comentarios{
+    background-color: var(--bg-color-coments);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 4%;
+}
+
+.comentarios__info{
+    color: var(--font-color-highlight);
+    font-size: 0.875em;
+    font-weight: var(--font-weigth-bold);
+}
+
+.comentarios__titulo{
+    color: var(--font-color-heading);
+    font-size: 2.25em;
+    line-height: 1.25em;
+}
+
+.perfil__img{
+    padding-bottom: 1%;
+}
+
+.perfil__nome{
+    color: var(--font-color-heading);
+    padding-bottom: 0.3%;
+}
+
+.perfil__descricao{
+    font-size: 0.875em;
+    font-weight: var(--font-weigth-thin);
+}
