@@ -200,3 +200,41 @@ body{
 .vagasAbertas__img{
     width: 100%;
 }
+
+/* Descrição Vagas */
+.vagasDisponiveis__design, .vagasDisponiveis__desenvolvimento{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 3% 16% 0 16%;
+}
+
+.vagas__titulo{
+    color: var(--font-color-heading);
+    font-size: 1.25em;
+}
+
+.vagas__design, .vagas__desenvolvimento{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.container__design, .container__desenvolvimento{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    padding: 1.5rem;
+}
+
+.vagasDisponiveis__titulo{
+    color: var(--font-color-heading);
+    font-size: 1.125em;
+}
+
+.container__vagasDisponiveis__descricao{
+    display: flex;
+    gap: 1.5rem;
+}
