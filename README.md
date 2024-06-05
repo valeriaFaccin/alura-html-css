@@ -19,4 +19,6 @@ As pastas são divididas de acordo com o tema da página desenvolvida, com todos
   - **7-days-of-code**: contém os desafios em HTML e CSS propostos pela Alura para o desenvolvimento de páginas Web.
     > **OptimusTech**: uma página para uma empresa de tecnologia.
 
+    >> **AluraMed**: uma página pra uma clínica médica, sendo uma agenda de consultas.
+
   - **Portfolio-alura**: um portfolio desenvolvido seguindo a formação HTML e CSS para projetos Web. Além de pequenas atividades colocando em prática o que foi estudado durante as aulas.
