@@ -53,3 +53,27 @@ body{
 .icone__wifi{
     padding-bottom: 3%;
 }
+
+
+/* Cabeçalho Usuário */
+.cabecalho__usuario{
+    display: flex;
+    align-items: center;
+    padding: 8% 4% 5% 4%;
+}
+
+.usuario__info{
+    padding: 4%;
+}
+
+.usuario__img{
+    width: 57px;
+    border-radius: 30px;
+}
+
+.usuario__info__titulo{
+    color: var(--font-color-primary);
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-headline);
+    padding-bottom: 5%;
+}
