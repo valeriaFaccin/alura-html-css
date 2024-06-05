@@ -240,3 +240,17 @@ body{
 .item__destaque{
     color: var(--button-bg-verEndereco);
 }
+
+@media (min-width: 768px){
+    .cabecalho__notificacoes{
+        display: none;
+    }
+
+    .cabecalho__usuario {
+        padding: 3% 2%;
+    }
+
+    .usuario__info {
+        padding: 1%;
+    }
+}
