@@ -198,3 +198,16 @@ body{
     border: 1px solid var(--button-bg-verEndereco);
     border-radius: 8px;
 }
+
+/* Button Mais */
+.button__mais{
+    background-color: var(--button-bg-verEndereco);
+    width: 56px;
+    height: 56px;
+    border: none;
+    border-radius: 30px;
+    position: fixed;
+    right: 5%;
+    bottom: 13%;
+    filter: drop-shadow(0 3px 6px #4894FF90);
+}
