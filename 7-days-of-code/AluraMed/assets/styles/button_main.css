@@ -1,0 +1,17 @@
+/* Button Mais */
+.button__mais{
+    background-color: var(--button-bg-verEndereco);
+    width: 56px;
+    height: 56px;
+    border: none;
+    border-radius: 30px;
+    position: fixed;
+    right: 5%;
+    bottom: 13%;
+    filter: drop-shadow(0 3px 6px #4894FF90);
+    cursor: pointer;
+}
+
+.button__mais:hover{
+    background-color: var(--button-bg-azul-hover);
+}

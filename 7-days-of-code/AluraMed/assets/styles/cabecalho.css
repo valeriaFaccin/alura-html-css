@@ -1,0 +1,58 @@
+/* Cabeçalho Notificações */
+.cabecalho__notificacoes{
+    background-color: var(--bg-cards-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 5%;
+    max-height: 33px;
+}
+
+.notificacoes__hour{
+    color: var(--font-color-hour);
+}
+
+.icones__img{
+    padding: 0 0.375rem;
+}
+
+.icone__wifi{
+    padding-bottom: 3%;
+}
+
+/* Cabeçalho Usuário */
+.cabecalho__usuario{
+    display: flex;
+    align-items: center;
+    padding: 8% 4% 5% 4%;
+}
+
+.usuario__info{
+    padding: 4%;
+}
+
+.usuario__img{
+    width: 57px;
+    border-radius: 30px;
+}
+
+.usuario__info__titulo{
+    color: var(--font-color-primary);
+    font-weight: var(--font-weight-bold);
+    font-size: 1.375em;
+    padding-bottom: 5%;
+}
+
+@media (min-width: 768px){
+    .cabecalho__notificacoes{
+        display: none;
+    }
+
+    .cabecalho__usuario {
+        padding: 2% 2%;
+    }
+
+    .usuario__info {
+        padding: 1%;
+    }
+}

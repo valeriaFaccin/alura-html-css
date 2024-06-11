@@ -1,0 +1,153 @@
+/* Consultas */
+.consultas{
+    padding: 0 3% 3% 3%;
+    display: flex;
+    flex-direction: column;
+}
+
+.consultas__dia{
+    color: var(--font-color-primary);
+    font-size: 1em;
+    font-weight: var(--font-weight-bold);
+    padding: 8% 0;
+}
+
+.bloco__consultas{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+}
+
+.dia__container{
+    background-color: white;
+    border-radius: 8px;
+    max-width: 328px;
+    max-height: 170px;
+    flex-grow: 1;
+}
+
+.container__dadosPessoa{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5%;
+}
+
+.dadosPessoa{
+    display: flex;
+    align-items: center;
+}
+
+/* Dados Consultas */
+.dadosPessoa__info{
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem;
+}
+
+.dadosPessoa__img{
+    width: 32px;
+    border-radius: 16px;
+}
+
+.dadosPessoa__nome{
+    color: var(--font-color-primary);
+    font-weight: var(--font-weight-bold);
+    margin-bottom: 0.45rem;
+}
+
+.dadosPessoa__formato{
+    display: flex;
+    align-items: center;
+}
+
+.formato__descricao{
+    font-size: 0.75em;
+    padding-left: 10px;
+}
+
+.dadosPessoa__chat{
+    background-color: var(--bg-color-chat);
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 4px 0px #FF98380F;
+}
+
+.dadosPessoa__chat:hover{
+    background-color: var(--bg-color-chat-hover);
+}
+
+.linha{
+    border: 0.5px solid var(--button-border);
+}
+
+.container__dadosConsulta{
+    padding: 5%;
+}
+
+.dadosConsulta__horario{
+    color: var(--font-color-primary);
+    font-size: 0.75em;
+    font-weight: var(--font-weight-semiBold);
+    padding-bottom: 3%;
+}
+
+.dadosConsulta__formato{
+    display: flex;
+    justify-content: center;
+    gap: 1.125rem;
+}
+
+.formato__btn{
+    width: 50%;
+    height: 48px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.formato__btn:hover{
+    background-color: var(--button-bg-laranj-hover);
+    border: 1px solid var(--button-bg-laranj-hover);
+    color: var(--bg-cards-color);
+}
+
+.btn-lig{
+    background-color: var(--button-bg-ligPorVid);
+    color: var(--bg-cards-color);
+    border: 1px solid var(--button-bg-ligPorVid);
+}
+
+.btn-aud{
+    background-color: transparent;
+    color: var(--font-color-primary);
+    border: 1px solid var(--button-border);
+}
+
+.formato__btn-local{
+    width: 100%;
+    height: 48px;
+    background-color: var(--button-bg-verEndereco);
+    color: var(--bg-cards-color);
+    border: 1px solid var(--button-bg-verEndereco);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.formato__btn-local:hover{
+    background-color: var(--button-bg-azul-hover);
+}
+
+@media (min-width: 768px){
+    .consultas__dia{
+        padding: 3% 0 5% 0;
+    }
+
+    .bloco__consultas{
+        justify-content: start;
+    }
+}
